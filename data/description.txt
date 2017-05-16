@@ -1,0 +1,24 @@
+# Author: Luis Enrique Correa Rocha  Luis.Rocha@tp.umu.se        Date: 2009/09/09
+# IceLab, Department of Physics, Umea University
+# Description: Network data obtained from a web community about sexual activity
+#              Completely bi-partite network with multiple edges
+#              Nodes: female (sex-sellers) and male (sex-buyers)
+#              Edges: if a male writes a post about a sexual encounter with a female
+#
+# Originally published in:
+# "Information dynamics shape the sexual networks of Internet-mediated prostitution" 
+# L E C Rocha, F Liljeros, and P Holme 
+# Proceedings of the National Academy of Sciences of the USA 107 (13), 5706-5711 (2010) 
+#
+# number of females: 6624
+# number of males: 10106
+# number of edges: 50632
+#
+# 1st column: Female-id
+# 2nd column: Male-id
+# 3rd column: Date (in days) of posting
+# 4th column: Female grade given by the male (Bad: -1, Neutral: 0, Good: +1)
+# 5th column: Anal sex with/without condom?  (Yes: +1, No: -1, Information not available: 0)
+# 6th column: Oral sex with condom?          (Yes: +1, No: -1, Information not available: 0)
+# 7th column: Mouth kiss?                    (Yes: +1, No: -1, Information not available: 0)
+#
